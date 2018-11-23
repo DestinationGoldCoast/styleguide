@@ -1,5 +1,5 @@
  <?php include_once('functions.php'); ?>
- <?php $project_name = "Destination Gold Coast Style Guide"; ?>
+ <?php $project_name = "Destination Gold Coast"; ?>
 <!DOCTYPE html>
 
 <head>
