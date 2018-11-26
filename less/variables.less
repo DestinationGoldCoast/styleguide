@@ -48,12 +48,32 @@
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
+@font-face {
+	font-family: 'helvetica_regular';
+	src: url('/fonts/HelveticaNeueLTStd-LtCn.eot'); /* IE9 Compat Modes */
+	src: url('/fonts/HelveticaNeueLTStd-LtCn.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('/fonts/HelveticaNeueLTStd-LtCn.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('/fonts/HelveticaNeueLTStd-LtCn.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('/fonts/HelveticaNeueLTStd-LtCn.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'brandon_grotesque_regular';
+	src: url('/fonts/brandongrotesque-regular-webfont.eot'); /* IE9 Compat Modes */
+	src: url('/fonts/brandongrotesque-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('/fonts/brandongrotesque-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('/fonts/brandongrotesque-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('/fonts/brandongrotesque-regular-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-family-helvetica-regular: "helvetica_regular", sans-serif;
+@font-family-brandon-grotesque-regular: "brandon_grotesque_regular", sans-serif !important;
 
 @font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
-@font-family-base:        @font-family-sans-serif;
+@font-family-base:        @font-family-helvetica-regular;
 
 @font-size-base:          14px;
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
@@ -72,10 +92,10 @@
 @line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
-@headings-font-family:    @font-family-sans-serif;
-@headings-font-weight:    300;
-@headings-line-height:    1.1;
-@headings-color:          @gray-dark;
+@headings-font-family:    @font-family-brandon-grotesque-regular;
+@headings-font-weight:    normal;
+@headings-line-height:    1;
+@headings-color:          @brand-black;
 
 
 //-- Iconography
