@@ -1,7 +1,9 @@
 //
 // Typography
 // --------------------------------------------------
-
+body {
+  font-family: @font-family-helvetica-regular;
+}
 
 // Headings
 // -------------------------
@@ -16,8 +18,8 @@ h1, h2, h3, h4, h5, h6,
   small,
   .small {
     font-weight: normal;
-    line-height: 1;
-    color: @headings-small-color;
+    line-height: 1 !important;
+    color: @headings-small-color !important;
   }
 }
 
@@ -136,7 +138,38 @@ cite    { font-style: normal; }
 .page-header {
   padding-bottom: ((@line-height-computed / 2) - 1);
   margin: (@line-height-computed * 2) 0 @line-height-computed;
-  border-bottom: 1px solid @page-header-border-color;
+}
+
+.title-wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+  h2 {
+    margin-bottom: 10px;
+    position: relative;
+    &.large {
+      span {
+        background: @brand-white;
+        display: inline-block;
+        position: relative;
+        padding-left: 50px;
+        padding-right: 50px;
+        z-index: 5;
+      }
+      &::after {
+        content: "";
+        top: 50%;
+        position: absolute;
+        height: 1px;
+        background: #262626;
+        width: 80%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        opacity: .5;
+      }
+    }
+  }
 }
 
 
