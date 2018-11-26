@@ -178,18 +178,18 @@ ul.scroll-menu {
 /* Colors
 ---------------------------------------------------------------------------- */
 .sg-color {
-  background: #fff;
-  border: 1px solid lighten(@gray-light, 20%);
+  background: #eaeaea;
+  border: 1px solid #ccc;
   display: inline-block;
-  height: 80px;
-  margin: 0 .5em .5em 0;
+  height: 111px;
+  margin: 15px .5em .5em 0;
   padding: 5px;
   position: relative;
-  width: 100px;
+  width: 180px;
 }
-.sg-lg{
-	width: 140px;
-	height: 100px;
+.sg-lg {
+  width: 300px;
+  height: 183px;
 }
 .sg-color-swatch {
   display: block;
@@ -199,7 +199,7 @@ ul.scroll-menu {
 
 .sg-color-swatch span {
   background: #000;
-  background: rgba(0,0,0,.7);
+  background: rgba(0, 0, 0, 0.7);
   bottom: 5px;
   color: #fff;
   font-size: .8em;
@@ -209,10 +209,14 @@ ul.scroll-menu {
   position: absolute;
   text-align: center;
   text-transform: uppercase;
-  width: 88px;
+  width: calc( 100% - 10px);
 }
 .sg-lg .sg-color-swatch span{
 	width: 128px;
+}
+
+.sg-lg .sg-color-swatch span {
+  width: calc( 100% - 10px);
 }
 
 .sg-color-swatch:hover span {
@@ -222,7 +226,7 @@ ul.scroll-menu {
  Colors
 ---------------------------------------------------------------------------- */
 
-//main
+//main standard colors that got rolled with the system
 .sg-brand-primary .sg-color-swatch {background: @brand-primary;}
 .sg-gray-lighter .sg-color-swatch {background: @gray-lighter;}
 .sg-gray-light .sg-color-swatch {background: @gray-light;}
@@ -234,6 +238,43 @@ ul.scroll-menu {
 .sg-brand-info .sg-color-swatch {background: @brand-info;}
 .sg-brand-warning .sg-color-swatch {background: @brand-warning;}
 .sg-brand-danger .sg-color-swatch {background: @brand-danger;}
+
+
+.sg-brand-white{
+  .sg-color-swatch {
+    background: @brand-white;
+  }
+}
+.sg-brand-black {
+  .sg-color-swatch {
+    background: @brand-black;
+  }
+}
+.sg-brand-teal {
+  .sg-color-swatch {
+    background: @brand-teal;
+  }
+}
+.sg-brand-watermelon {
+  .sg-color-swatch {
+    background: @brand-watermelon;
+  }
+}
+.sg-brand-charcoal {
+  .sg-color-swatch {
+    background: @brand-charcoal;
+  }
+}
+.sg-brand-coolgray {
+  .sg-color-swatch {
+    background: @brand-coolgray;
+  }
+}
+.sg-brand-warmgray {
+  .sg-color-swatch {
+    background: @brand-warmgray;
+  }
+}
 
 
 /* Fonts
