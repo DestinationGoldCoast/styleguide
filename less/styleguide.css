@@ -44,20 +44,20 @@ body {
 }
 .sg-h1 {
   font-weight: bold;
-  padding-bottom: 0.2em;
+  padding-bottom: .2em;
   margin-top: 1em;
   margin-bottom: 1.25em;
   border-bottom-width: 3px;
 }
 .sg-h2 {
-  margin-bottom: 0.5em;
-  padding-bottom: 0.5em;
+  margin-bottom: .5em;
+  padding-bottom: .5em;
   text-transform: capitalize;
   margin-top: 1.5em;
   border-bottom-width: 2px;
 }
 .sg-h3 {
-  padding-bottom: 0.25em;
+  padding-bottom: .25em;
   border-color: #eee;
 }
 .sg-about {
@@ -101,7 +101,7 @@ ul.scroll-menu {
   top: 45px;
   color: #fff;
   content: "Selected code ready to be copied";
-  font-size: 0.8em;
+  font-size: .8em;
   display: block;
   right: 5px;
   padding: 5px 15px;
@@ -157,7 +157,7 @@ ul.scroll-menu {
   border: 1px solid #ccc;
   display: inline-block;
   height: 111px;
-  margin: 15px 0.5em 0.5em 0;
+  margin: 15px .5em .5em 0;
   padding: 5px;
   position: relative;
   width: 180px;
@@ -176,20 +176,20 @@ ul.scroll-menu {
   background: rgba(0, 0, 0, 0.7);
   bottom: 5px;
   color: #fff;
-  font-size: 0.8em;
+  font-size: .8em;
   margin: 0;
   opacity: 0;
   padding: 5px 0;
   position: absolute;
   text-align: center;
   text-transform: uppercase;
-  width: calc(100% - 10px);
+  width: calc(90%);
 }
 .sg-lg .sg-color-swatch span {
   width: 128px;
 }
 .sg-lg .sg-color-swatch span {
-  width: calc(100% - 10px);
+  width: calc(90%);
 }
 .sg-color-swatch:hover span {
   opacity: 1;
@@ -252,7 +252,7 @@ ul.scroll-menu {
 ---------------------------------------------------------------------------- */
 .sg-font {
   font-size: 1.8em;
-  padding: 0 0 0.2em 0;
+  padding: 0 0 .2em 0;
 }
 .sg-font-primary {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -263,7 +263,7 @@ ul.scroll-menu {
 /* Grid
 ---------------------------------------------------------------------------- */
 .show-grid {
-  padding: 0.5em 0;
+  padding: .5em 0;
 }
 .show-grid div {
   background-color: #ddd;
@@ -282,11 +282,11 @@ ul.scroll-menu {
 }
 .sg-source pre {
   background: #333;
-  border-radius: 0.5em;
+  border-radius: .5em;
   border: 1px solid #ddd;
   color: #fff;
   overflow-x: scroll;
-  padding: 0.5em 0.3em;
+  padding: .5em .3em;
 }
 .sg-source pre code {
   background: transparent;
@@ -399,7 +399,7 @@ ol.linenums {
 ol.linenums li {
   color: #bebec5;
   line-height: 1.5;
-  padding-left: 0.8em;
+  padding-left: .8em;
 }
 /* -------------------------------------------------------------------------
  Legacy IE
