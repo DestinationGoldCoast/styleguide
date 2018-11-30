@@ -1,0 +1,22 @@
+{
+  "name": "styleguide",
+  "version": "1.0.0",
+  "description": "The styleguide",
+  "main": "index.php",
+  "scripts": {
+    "test": "-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DestinationGoldCoast/styleguide.git"
+  },
+  "author": "Destination Gold Coast with specialspecial appearance from Bradley-D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DestinationGoldCoast/styleguide/issues"
+  },
+  "homepage": "https://github.com/DestinationGoldCoast/styleguide#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
