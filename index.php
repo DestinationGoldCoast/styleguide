@@ -17,6 +17,7 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/structure.css">
 	</head>
 	<body>
 		<a id="skippy" class="sr-only sr-only-focusable" href="<!-- TODO -->">
@@ -49,7 +50,8 @@
 				<div class="col-md-2 d-none d-md-block bg-light sidebar">
 					<div class="sidebar-sticky">
 						<ul class="nav flex-column">
-							<li>DGC Brand Overview
+							<li>
+								<strong>DGC Brand Overview</strong>
 								<ul>
 									<li>Style Guide Introduction</li>
 									<li>DGC Tone of Voice</li>
@@ -70,22 +72,23 @@
 									<li>DGC Photography</li>
 								</ul>
 							</li>
-							<li>DGC Print Branding
+							<li>
+								<strong>DGC Print Branding</strong>
 								<ul>
 									<li>Introduction</li>
 									<li>Logo
 										<ul>
-											<li></li>
-											<li></li>
-											<li></li>
+											<li>Minimum Size</li>
+											<li>Proximity</li>
+											<li>Do nots</li>
 										</ul>
 									</li>
 									<li>Colour Palette</li>
 									<li>Photography
 										<ul>
-											<li></li>
-											<li></li>
-											<li></li>
+											<li>Selection</li>
+											<li>Formatting</li>
+											<li>Cropping</li>
 										</ul>
 									</li>
 									<li>Typography
@@ -109,17 +112,54 @@
 									</li>
 								</ul>
 							</li>
-							<li>DGC Digital Branding / Website
+							<li>
+								<strong>DGC Digital Branding / Website</strong>
 								<ul>
 									<li>Introduction</li>
-									<li>Foundation</li>
+									<li>Foundation
+										<ul>
+											<li>Basic Content Structure</li>
+											<li>Vertical Grid</li>
+											<li>Breakpoints</li>
+											<li>Columns & Content Blocks</li>
+											<li>Spacing</li>
+											<li>Horizontal Grid</li>
+										</ul>
+									</li>
 									<li>Logo</li>
-									<li>Colour</li>
+										<ul>
+											<li>Masterbrand (Positive & Reverse)</li>
+											<li>Minimum Size</li>
+											<li>Proximity</li>
+										</ul>
+									<li>Colour
+										<ul>
+											<li>Primary Palette</li>
+											<li>Secondary Palette</li>
+											<li>Background</li>
+											<li>Ratios</li>
+										</ul>
+									</li>
 									<li>Photography</li>
-									<li>Typography</li>
+									<li>Typography
+										<ul>
+											<li>Hierarchy</li>
+										</ul>
+									</li>
 									<li>Tables</li>
-									<li>Buttons</li>
-									<li>Links</li>
+									<li>Buttons
+										<ul>
+											<li>Primary</li>
+											<li>Secondary</li>
+										</ul>
+									</li>
+									<li>Links
+										<ul>
+											<li>Menu</li>
+											<li>Paragraph</li>
+											<li>Footer</li>
+										</ul>
+									</li>
 									<li>Form Elements</li>
 									<li>Accessibility</li>
 								</ul>

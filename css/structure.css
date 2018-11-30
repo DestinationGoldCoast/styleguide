@@ -1,0 +1,14 @@
+.sidebar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.sidebar .sidebar-sticky {
+  height: calc(100vh - 70px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0 1.5rem;
+  position: sticky;
+  top: 0;
+}
+
+/*# sourceMappingURL=structure.css.map */
