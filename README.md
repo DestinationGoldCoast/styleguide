@@ -1,2 +1,7 @@
 # DGC Style Guide
-All the magic is happening on branches, check for branches with "develop" for the current status of each edition.
+
+## CSS Preprocessor - SASS
+Please refer to https://sass-lang.com/
+
+## Task Runner - Gulp
+Please refer to https://gulpjs.com/
