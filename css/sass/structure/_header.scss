@@ -1,0 +1,27 @@
+header {
+    .navbar-nav {
+        display: block;
+        li {
+            display: table-cell;
+            a {
+                color: $black;
+                display: table-row;
+                height: 64px;
+                vertical-align: bottom;
+                &:hover {
+                    text-decoration: none;
+                    color: $cool-gray;
+                }
+                i {
+                    display: table-cell;
+                    vertical-align: bottom;
+                }
+                span {
+                    display: table-cell;
+                    line-height: 1;
+                    vertical-align: bottom;
+                }
+            }
+        }
+    }
+}

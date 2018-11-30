@@ -16,6 +16,7 @@
 		<title>DGC Style guide</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/structure.css">
 	</head>
@@ -25,22 +26,29 @@
 				<span class="skiplink-text">Skip to main content</span>
 			</div>
 		</a>
-		<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar shadow-sm">
+		<header class="navbar fixed-top navbar-dark flex-column flex-md-row bd-navbar shadow-sm">
 			<div class="navbar-nav-scroll">
 				<h5 class="my-3 mr-md-auto text-dark font-weight-normal">Destination Gold Coast - Style Guide</h5>
 			</div>
-			<ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-				<li class="">
-					<a id="small" data-size="420px" data-size-label="small" class="">
-						<span>Small</span></a>
+			<ul class="navbar-nav ml-md-auto">
+				<li class="device"><strong>Display:</strong></li>
+				<li class="device px-4">
+					<a id="small" class="" data-size="420px" data-size-label="small" href="#">
+						<i class="fas fa-mobile fa-2x px-2"></i>
+						<span class="sr-only">Small</span>
+					</a>
 				</li>
-				<li class="">
-					<a id="medium" data-size="720px" data-size-label="medium" class="">
-						<span>Medium</span></a>
+				<li class="device px-4">
+					<a id="medium" class="" data-size="720px" data-size-label="medium"  href="#">
+						<i class="fas fa-tablet fa-3x px-2"></i>
+						<span class="sr-only">Medium</span>
+					</a>
 				</li>
-				<li class="">
-					<a id="large" data-size="1280px" data-size-label="large" class="">
-						<span>Large</span></a>
+				<li class="device px-4">
+					<a id="large" class="" data-size="1280px" data-size-label="large" href="#">
+						<i class="fas fa-desktop fa-4x px-2"></i>
+						<span class="sr-only">Large</span>
+					</a>
 				</li>
 			</ul>
 		</header>

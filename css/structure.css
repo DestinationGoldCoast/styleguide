@@ -1,6 +1,39 @@
+/* Colors - Primary */
+/* Colors - Secondary */
+header .navbar-nav {
+  display: block;
+}
+header .navbar-nav li {
+  display: table-cell;
+}
+header .navbar-nav li a {
+  color: #000;
+  display: table-row;
+  height: 64px;
+  vertical-align: bottom;
+}
+header .navbar-nav li a:hover {
+  text-decoration: none;
+  color: #747e79;
+}
+header .navbar-nav li a i {
+  display: table-cell;
+  vertical-align: bottom;
+}
+header .navbar-nav li a span {
+  display: table-cell;
+  line-height: 1;
+  vertical-align: bottom;
+}
+
 .sidebar {
+  bottom: 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  left: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  position: fixed;
+  top: 81px;
 }
 .sidebar .sidebar-sticky {
   height: calc(100vh - 70px);

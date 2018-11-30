@@ -1,6 +1,11 @@
 .sidebar {
+    bottom: 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    left: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    position: fixed;
+    top: 81px;
     .sidebar-sticky {
         height: calc(100vh - 70px);
         overflow-x: hidden;
