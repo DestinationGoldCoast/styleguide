@@ -4,6 +4,7 @@
  *
  * @since 1.0.0
  */
+
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -16,9 +17,9 @@
 		<title>DGC Style guide</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/structure.css">
+
+		<?php require_once 'scaffolding/includes/header-includes.html'; ?>
+
 	</head>
 	<body>
 		<a id="skippy" class="sr-only sr-only-focusable" href="<!-- TODO -->">
@@ -27,157 +28,58 @@
 			</div>
 		</a>
 		<header class="navbar fixed-top navbar-dark flex-column flex-md-row bd-navbar shadow-sm">
-			<div class="navbar-nav-scroll">
-				<h5 class="my-3 mr-md-auto text-dark font-weight-normal">Destination Gold Coast - Style Guide</h5>
+			<div class="navbar-logo">
+
+				<?php require_once 'scaffolding/header/logo.html'; ?>
+
 			</div>
-			<ul class="navbar-nav ml-md-auto">
-				<li class="device"><strong>Display:</strong></li>
-				<li class="device px-4">
-					<a id="small" class="" data-size="420px" data-size-label="small" href="#">
-						<i class="fas fa-mobile fa-2x px-2"></i>
-						<span class="sr-only">Small</span>
-					</a>
-				</li>
-				<li class="device px-4">
-					<a id="medium" class="" data-size="720px" data-size-label="medium"  href="#">
-						<i class="fas fa-tablet fa-3x px-2"></i>
-						<span class="sr-only">Medium</span>
-					</a>
-				</li>
-				<li class="device px-4">
-					<a id="large" class="" data-size="1280px" data-size-label="large" href="#">
-						<i class="fas fa-desktop fa-4x px-2"></i>
-						<span class="sr-only">Large</span>
-					</a>
-				</li>
-			</ul>
+			<div class="navbar-display">
+
+				<?php require_once 'scaffolding/header/device-switcher.html'; ?>
+
+			</div>
 		</header>
 		<div clas="container-fluid">
 			<div class="row">
 				<!-- SIDEBAR -->
-				<div class="col-md-2 d-none d-md-block bg-light sidebar">
+				<div class="col-md-2 d-none d-md-block sidebar">
 					<div class="sidebar-sticky">
-						<ul class="nav flex-column">
-							<li>
-								<strong>DGC Brand Overview</strong>
-								<ul>
-									<li>Style Guide Introduction</li>
-									<li>DGC Tone of Voice</li>
-									<li>Brand Summary</li>
-									<li>DGC Logo & Devices
-										<ul>
-											<li>Usage</li>
-											<li>Colour</li>
-										</ul>
-									</li>
-									<li>DGC Typefaces
-										<ul>
-											<li>Primary</li>
-											<li>Secondary</li>
-											<li>Decorative</li>
-										</ul>
-									</li>
-									<li>DGC Photography</li>
-								</ul>
-							</li>
-							<li>
-								<strong>DGC Print Branding</strong>
-								<ul>
-									<li>Introduction</li>
-									<li>Logo
-										<ul>
-											<li>Minimum Size</li>
-											<li>Proximity</li>
-											<li>Do nots</li>
-										</ul>
-									</li>
-									<li>Colour Palette</li>
-									<li>Photography
-										<ul>
-											<li>Selection</li>
-											<li>Formatting</li>
-											<li>Cropping</li>
-										</ul>
-									</li>
-									<li>Typography
-										<ul>
-											<li>Headings</li>
-											<li>Subheadings</li>
-											<li>Body Copy</li>
-											<li>Bullet Points</li>
-											<li>Pull Out Quotes</li>
-											<li>Call to Actions</li>
-											<li>Special Characters</li>
-										</ul>
-									</li>
-									<li>Print Promotion
-										<ul>
-											<li>Advertising</li>
-											<li>Flyers</li>
-											<li>Brochures</li>
-											<li>Signage</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<strong>DGC Digital Branding / Website</strong>
-								<ul>
-									<li>Introduction</li>
-									<li>Foundation
-										<ul>
-											<li>Basic Content Structure</li>
-											<li>Vertical Grid</li>
-											<li>Breakpoints</li>
-											<li>Columns & Content Blocks</li>
-											<li>Spacing</li>
-											<li>Horizontal Grid</li>
-										</ul>
-									</li>
-									<li>Logo</li>
-										<ul>
-											<li>Masterbrand (Positive & Reverse)</li>
-											<li>Minimum Size</li>
-											<li>Proximity</li>
-										</ul>
-									<li>Colour
-										<ul>
-											<li>Primary Palette</li>
-											<li>Secondary Palette</li>
-											<li>Background</li>
-											<li>Ratios</li>
-										</ul>
-									</li>
-									<li>Photography</li>
-									<li>Typography
-										<ul>
-											<li>Hierarchy</li>
-										</ul>
-									</li>
-									<li>Tables</li>
-									<li>Buttons
-										<ul>
-											<li>Primary</li>
-											<li>Secondary</li>
-										</ul>
-									</li>
-									<li>Links
-										<ul>
-											<li>Menu</li>
-											<li>Paragraph</li>
-											<li>Footer</li>
-										</ul>
-									</li>
-									<li>Form Elements</li>
-									<li>Accessibility</li>
-								</ul>
-							</li>
-						<ul>
+						<!-- MENU -->
+						<div class="dropdown brand">
+
+							<?php require_once 'scaffolding/menu/brand.html'; ?>
+
+						</div>
+						<div class="dropdown-divider"></div>
+						<div class="dropdown print">
+
+							<?php require_once 'scaffolding/menu/print.html'; ?>
+
+						</div>
+						<div class="dropdown-divider"></div>
+						<div class="dropdown digital">
+
+							<?php require_once 'scaffolding/menu/digital.html'; ?>
+
+						</div>
+						<div class="sidebar-footer">
+
+							<?php require_once 'scaffolding/sidebar/disclaimer.html'; ?>
+
+						</div>
 					</div>
 				</div>
-				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+				<main role="main" class="col-md-9 bg-light ml-sm-auto col-lg-10 ">
+					<div id="display-switch" class="display-switch">
+						<h1 class="jumbotron-heading">Album example</h1>
+						<p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+					</div>
 				</main>
 			</div>
 		</div>
+
+		<!-- Load in the JavaScript -->
+		<?php require_once 'scaffolding/includes/footer-js.html'; ?>
+
 	</body>
 </html>
