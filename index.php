@@ -69,10 +69,8 @@
 						</div>
 					</div>
 				</div>
-				<main role="main" class="col-md-9 bg-light ml-sm-auto col-lg-10 ">
+				<main role="main" class="col-md-10 bg-light ml-sm-auto">
 					<div id="display-switch" class="display-switch">
-						<h1 class="jumbotron-heading">Album example</h1>
-						<p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
 					</div>
 				</main>
 			</div>
