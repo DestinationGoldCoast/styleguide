@@ -18,7 +18,7 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<?php require_once 'scaffolding/includes/header-includes.html'; ?>
+		<?php require_once 'structure/includes/header-includes.html'; ?>
 
 	</head>
 	<body>
@@ -30,12 +30,12 @@
 		<header class="navbar fixed-top shadow-sm">
 			<div class="navbar-logo">
 
-				<?php require_once 'scaffolding/header/logo.html'; ?>
+				<?php require_once 'structure/header/logo.html'; ?>
 
 			</div>
 			<div class="navbar-display">
 
-				<?php require_once 'scaffolding/header/device-switcher.html'; ?>
+				<?php require_once 'structure/header/device-switcher.html'; ?>
 
 			</div>
 		</header>
@@ -47,24 +47,24 @@
 						<!-- MENU -->
 						<div class="dropdown brand">
 
-							<?php require_once 'scaffolding/menu/brand.html'; ?>
+							<?php require_once 'structure/menu/brand.html'; ?>
 
 						</div>
 						<div class="dropdown-divider"></div>
 						<div class="dropdown print">
 
-							<?php require_once 'scaffolding/menu/print.html'; ?>
+							<?php require_once 'structure/menu/print.html'; ?>
 
 						</div>
 						<div class="dropdown-divider"></div>
 						<div class="dropdown digital">
 
-							<?php require_once 'scaffolding/menu/digital.html'; ?>
+							<?php require_once 'structure/menu/digital.html'; ?>
 
 						</div>
 						<div class="sidebar-footer">
 
-							<?php require_once 'scaffolding/sidebar/disclaimer.html'; ?>
+							<?php require_once 'structure/sidebar/disclaimer.html'; ?>
 
 						</div>
 					</div>
@@ -77,7 +77,7 @@
 		</div>
 
 		<!-- Load in the JavaScript -->
-		<?php require_once 'scaffolding/includes/footer-js.html'; ?>
+		<?php require_once 'structure/includes/footer-js.html'; ?>
 
 	</body>
 </html>
