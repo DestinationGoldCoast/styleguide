@@ -27,7 +27,7 @@
 				<span class="skiplink-text">Skip to main content</span>
 			</div>
 		</a>
-		<header class="navbar fixed-top navbar-dark flex-column flex-md-row bd-navbar shadow-sm">
+		<header class="navbar fixed-top shadow-sm">
 			<div class="navbar-logo">
 
 				<?php require_once 'scaffolding/header/logo.html'; ?>
