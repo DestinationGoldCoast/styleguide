@@ -42,7 +42,7 @@
 		<div clas="container-fluid">
 			<div class="row">
 				<!-- SIDEBAR -->
-				<div class="col-md-2 d-none d-md-block sidebar">
+				<div class="col-md-2 d-none d-md-block sidebar bg-light">
 					<div class="sidebar-sticky">
 						<!-- MENU -->
 						<div class="dropdown brand">
@@ -69,8 +69,14 @@
 						</div>
 					</div>
 				</div>
-				<main role="main" class="col-md-10 bg-light ml-sm-auto">
+				<main role="main" class="col-md-10 ml-sm-auto main">
 					<div id="display-switch" class="display-switch">
+
+						<!-- Brand Overview -->
+						<?php require_once 'components/overview/index.php'; ?>
+						<!-- Print Branding -->
+						<!-- Digital Branding -->
+
 					</div>
 				</main>
 			</div>

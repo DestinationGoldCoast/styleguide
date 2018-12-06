@@ -35,7 +35,7 @@ header .navbar-nav li a span {
   top: 86px;
 }
 .sidebar .sidebar-sticky {
-  height: 100vh;
+  height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
   position: sticky;
@@ -81,12 +81,25 @@ header .navbar-nav li a span {
 
 main {
   top: 86px;
-  min-height: calc( 100vh - 86px);
+  min-height: calc( 100vh - 86px) !important;
 }
 main .display-switch {
   background: #fff;
-  margin: 50px auto;
+  margin: 25px auto;
   padding: 15px;
+}
+main header.section-title {
+  margin-bottom: 40px;
+}
+main header.section-title h1 {
+  border-left: 1px solid #000;
+  letter-spacing: -1px;
+  line-height: 1;
+  padding-left: 14px;
+  text-transform: uppercase;
+}
+main header.section-title h1 span {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=structure.css.map */
