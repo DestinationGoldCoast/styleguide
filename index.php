@@ -27,7 +27,7 @@
 				<span class="skiplink-text">Skip to main content</span>
 			</div>
 		</a>
-		<header class="navbar fixed-top shadow-sm">
+		<header class="navbar fixed-top shadow-sm bg-white">
 			<div class="navbar-logo">
 
 				<?php require_once 'structure/header/logo.html'; ?>
@@ -42,7 +42,7 @@
 		<div clas="container-fluid">
 			<div class="row">
 				<!-- SIDEBAR -->
-				<div class="col-md-2 d-none d-md-block sidebar bg-light">
+				<div class="col-md-2 sidebar bg-light">
 					<div class="sidebar-sticky">
 						<!-- MENU -->
 						<div class="dropdown brand">
@@ -69,7 +69,7 @@
 						</div>
 					</div>
 				</div>
-				<main role="main" class="col-md-10 ml-sm-auto main">
+				<main role="main" id="main" class="col-md-10 ml-auto mr-auto main">
 					<div id="display-switch" class="display-switch">
 
 						<!-- Brand Overview -->

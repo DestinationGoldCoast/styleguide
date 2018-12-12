@@ -16,5 +16,10 @@ jQuery.noConflict();
                 border = '0';
         }
         $("#display-switch").css({ "width": width, "border": border });
+
+        //col-4
+        //col-6
+        //col-10
+
     });
 })(jQuery);
