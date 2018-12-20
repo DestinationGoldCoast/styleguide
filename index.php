@@ -22,10 +22,8 @@
 
 	</head>
 	<body>
-		<a id="skippy" class="sr-only sr-only-focusable" href="<!-- TODO -->">
-			<div class="container">
-				<span class="skiplink-text">Skip to main content</span>
-			</div>
+		<a id="skippy" class="sr-only sr-only-focusable" href="">
+			<span class="skiplink-text">Skip to main content</span>
 		</a>
 		<header class="navbar fixed-top shadow-sm bg-white">
 			<div class="navbar-logo">
@@ -33,54 +31,28 @@
 				<?php require_once 'structure/header/logo.html'; ?>
 
 			</div>
+
+			<div class="navbar-menu">
+				<?php require_once 'structure/header/menu.php'; ?>
+			</div>
+
 			<div class="navbar-display">
 
 				<?php require_once 'structure/header/device-switcher.html'; ?>
 
 			</div>
 		</header>
-		<div clas="container-fluid">
-			<div class="row">
-				<!-- SIDEBAR -->
-				<div class="col-md-2 sidebar bg-light">
-					<div class="sidebar-sticky">
-						<!-- MENU -->
-						<div class="dropdown brand">
+		<main id="content" role="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
 
-							<?php require_once 'structure/menu/brand.html'; ?>
+						<?php require_once 'components/overview/index.php'; ?>
 
-						</div>
-						<div class="dropdown-divider"></div>
-						<div class="dropdown print">
-
-							<?php require_once 'structure/menu/print.html'; ?>
-
-						</div>
-						<div class="dropdown-divider"></div>
-						<div class="dropdown digital">
-
-							<?php require_once 'structure/menu/digital.html'; ?>
-
-						</div>
-						<div class="sidebar-footer">
-
-							<?php require_once 'structure/sidebar/disclaimer.html'; ?>
-
-						</div>
 					</div>
 				</div>
-				<main role="main" id="main" class="col-md-10 ml-auto mr-auto main">
-					<div id="display-switch" class="display-switch">
-
-						<!-- Brand Overview -->
-						<?php require_once 'components/overview/index.php'; ?>
-						<!-- Print Branding -->
-						<!-- Digital Branding -->
-
-					</div>
-				</main>
 			</div>
-		</div>
+		</main>
 
 		<!-- Load in the JavaScript -->
 		<?php require_once 'structure/includes/footer-js.html'; ?>

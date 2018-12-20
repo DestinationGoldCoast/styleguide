@@ -3,88 +3,52 @@
 header .navbar-nav {
   display: block;
 }
-header .navbar-nav li {
+header .navbar-nav.device-switch li {
   display: table-cell;
 }
-header .navbar-nav li a {
-  color: #000;
+header .navbar-nav.device-switch li a {
   display: table-row;
-  height: 64px;
   vertical-align: bottom;
 }
-header .navbar-nav li a:hover {
+header .navbar-nav.device-switch li a:hover {
   text-decoration: none;
   color: #747e79;
 }
-header .navbar-nav li a i {
+header .navbar-nav.device-switch li a i {
   display: table-cell;
   vertical-align: bottom;
 }
-header .navbar-nav li a span {
+header .navbar-nav.device-switch li a span {
   display: table-cell;
   line-height: 1;
   vertical-align: bottom;
 }
-
-.sidebar {
-  background: #fff;
-  bottom: 0;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  top: 86px;
+header .navbar-nav li .nav-item {
+  margin-right: 20px;
 }
-.sidebar .sidebar-sticky {
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-  position: sticky;
-  top: 0;
-}
-.sidebar .sidebar-sticky .dropdown.show {
-  display: inline-block;
-}
-.sidebar .sidebar-sticky .dropdown .dropdown-toggle {
-  background: transparent;
-  text-align: left;
-  width: 100%;
-}
-.sidebar .sidebar-sticky .dropdown .dropdown-toggle::after {
+header .navbar-nav li .dropdown-menu {
   position: absolute;
-  right: 3px;
-  top: 16px;
 }
-.sidebar .sidebar-sticky .dropdown .dropdown-menu {
-  border: 0;
-}
-.sidebar .sidebar-sticky .dropdown .dropdown-menu.show {
-  padding-left: 25px;
-  position: relative !important;
-  transform: translate3d(0px, 0px, 0px) !important;
-  width: 100%;
-}
-.sidebar .sidebar-sticky .dropdown .dropdown-menu.show a {
+header .navbar-nav a {
   color: #000;
-  display: block;
-  width: 100%;
 }
-.sidebar .sidebar-sticky .dropdown .dropdown-menu.show a::before {
-  content: ">";
-  margin-right: 10px;
+header .navbar-nav .dropdown-submenu {
+  position: relative;
 }
-.sidebar .sidebar-sticky .dropdown .dropdown-menu.show .dropdown-item-text {
-  padding-left: 0;
+header .navbar-nav .dropdown-submenu a.dropdown-toggle::after {
+  transform: rotate(-90deg);
+  vertical-align: 0.155em;
 }
-.sidebar .sidebar-footer {
-  margin: 50px auto;
+header .navbar-nav .dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
 }
 
 main {
-  top: 86px;
+  top: 100px;
   min-height: calc( 100vh - 86px) !important;
-}
-main .display-switch {
-  background: #fff;
-  margin: 25px auto;
   padding: 15px;
 }
 main header.section-title {
@@ -92,6 +56,7 @@ main header.section-title {
 }
 main header.section-title h1 {
   border-left: 1px solid #000;
+  font-weight: 100;
   letter-spacing: -1px;
   line-height: 1;
   padding-left: 14px;
