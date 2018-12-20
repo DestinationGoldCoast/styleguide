@@ -45,7 +45,7 @@
 		<main id="content" role="main">
 			<div class="container">
 				<div class="row">
-					<div class="col-12">
+					<div id="display-switch" class="col-12">
 
 						<?php require_once 'components/overview/index.php'; ?>
 
