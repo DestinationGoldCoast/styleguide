@@ -47,7 +47,7 @@
 				<div class="row">
 					<div id="display-switch" class="col-12">
 
-						<?php require_once 'components/overview/index.php'; ?>
+						<?php require_once 'components/brand/index.php'; ?>
 
 					</div>
 				</div>
