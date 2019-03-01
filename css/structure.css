@@ -49,10 +49,13 @@ header .navbar-nav .dropdown-submenu .dropdown-menu {
 main {
   top: 100px;
   min-height: calc(100vh - 86px) !important;
-  padding: 150px 15px;
+  padding: 0 15px 150px;
 }
 main header.section-title {
   margin-bottom: 40px;
+}
+main header.section-title.sub {
+  padding-top: 105px;
 }
 main header.section-title h1 {
   border-left: 1px solid #000;
@@ -64,6 +67,9 @@ main header.section-title h1 {
 }
 main header.section-title h1 span {
   font-weight: bold;
+}
+main hr.mt-100 {
+  margin-top: 100px;
 }
 
 .col-4 #switch-target,

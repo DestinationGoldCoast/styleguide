@@ -2,49 +2,49 @@
 require_once 'partials/introduction.html';
 ?>
 
-<hr>
+<hr class="mt-100">
 
 <?php
 require_once 'partials/brand.html';
 ?>
 
-<hr>
+<hr class="mt-100">
 
 <?php
 require_once 'partials/tone-of-voice.html';
 ?>
 
-<hr>
+<hr class="mt-100">
 
 <?php
 require_once 'partials/logos-devices.html';
 ?>
 
-<hr>
+<hr class="mt-100">
 
 <?php
 require_once 'partials/primary-typeface.html';
 ?>
 
-<hr>
+<hr class="mt-100">
 
 <?php
 require_once 'partials/fall-back-typeface.html';
 ?>
 
-<hr>
+<hr class="mt-100">
 
 <?php
 require_once 'partials/secondary-typeface.html';
 ?>
 
-<hr>
+<hr class="mt-100">
 
 <?php
 require_once 'partials/decorative-typeface.html';
 ?>
 
-<hr>
+<hr class="mt-100">
 
 <?php
 require_once 'partials/photography.html';

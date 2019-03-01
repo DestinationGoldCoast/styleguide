@@ -1,10 +1,12 @@
 main {
     top: 100px;
     min-height: calc(100vh - 86px) !important;
-    padding: 150px 15px;
+    padding: 0 15px 150px;
     header.section-title {
         margin-bottom: 40px;
-        padding-top: 105px;
+        &.sub {
+            padding-top: 105px;
+        }
         h1 {
             border-left: 1px solid $black;
             font-weight: 100;
@@ -15,6 +17,11 @@ main {
             span {
                 font-weight: bold;
             }
+        }
+    }
+    hr {
+        &.mt-100 {
+            margin-top: 100px;
         }
     }
 }
