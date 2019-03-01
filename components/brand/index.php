@@ -1,40 +1,48 @@
 <?php
-require_once 'partials/introduction.html'; ?>
+require_once 'partials/introduction.html';
+?>
 
 <hr>
 
 <?php
-require_once 'partials/tone-of-voice.html'; ?>
+require_once 'partials/brand.html';
+?>
 
 <hr>
 
 <?php
-require_once 'partials/brand.html'; ?>
+require_once 'partials/tone-of-voice.html';
+?>
 
 <hr>
 
 <?php
-require_once 'partials/logos-devices.html'; ?>
+require_once 'partials/logos-devices.html';
+?>
 
 <hr>
 
 <?php
-require_once 'partials/primary-typeface.html'; ?>
+require_once 'partials/primary-typeface.html';
+?>
 
 <hr>
 
 <?php
-require_once 'partials/fall-back-typeface.html'; ?>
+require_once 'partials/fall-back-typeface.html';
+?>
 
 <hr>
 
 <?php
-require_once 'partials/secondary-typeface.html'; ?>
+require_once 'partials/secondary-typeface.html';
+?>
 
 <hr>
 
 <?php
-require_once 'partials/decorative-typeface.html'; ?>
+require_once 'partials/decorative-typeface.html';
+?>
 
 <hr>
 
