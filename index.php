@@ -49,6 +49,8 @@
 
 						<?php require_once 'components/brand/index.php'; ?>
 
+						<?php require_once 'components/print/index.php'; ?>
+
 					</div>
 				</div>
 			</div>
