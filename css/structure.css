@@ -71,6 +71,13 @@ main header.section-title h1 span {
 main hr.mt-100 {
   margin-top: 100px;
 }
+@font-face {
+  main {
+    font-family: "helvetica_neue";
+    src: url("../assets/brand/font/HelveticaNeueLTStd-LtCn.eot");
+    src: url("../assets/brand/font/HelveticaNeueLTStd-LtCn.eot?#iefix") format("embedded-opentype"), url("../assets/brand/font/HelveticaNeueLTStd-LtCn.woff2") format("woff2"), url("../assets/brand/font/HelveticaNeueLTStd-LtCn.woff") format("woff"), url("../assets/brand/font/HelveticaNeueLTStd-LtCn.ttf") format("truetype"), url("../assets/brand/font/HelveticaNeueLTStd-LtCn.svg#svgFontName") format("svg");
+  }
+}
 
 .col-4 #switch-target,
 .col-8 #switch-target {
