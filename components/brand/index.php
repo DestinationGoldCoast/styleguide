@@ -35,12 +35,6 @@ require_once 'partials/fall-back-typeface.html';
 <hr class="mt-100">
 
 <?php
-require_once 'partials/secondary-typeface.html';
-?>
-
-<hr class="mt-100">
-
-<?php
 require_once 'partials/decorative-typeface.html';
 ?>
 
