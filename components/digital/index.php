@@ -8,7 +8,7 @@
 
 <hr class="mt-100">
 
-<?php require_once 'partials/logo-minimum-size.html'; ?>
+<?php require_once 'partials/logo-minimum-sizes.html'; ?>
 
 <hr class="mt-100">
 

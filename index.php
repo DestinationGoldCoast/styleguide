@@ -53,6 +53,8 @@
 
 						<?php require_once 'components/digital/index.php'; ?>
 
+						<?php require_once 'components/website/index.php'; ?>
+
 					</div>
 				</div>
 			</div>
