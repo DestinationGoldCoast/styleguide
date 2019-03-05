@@ -51,6 +51,8 @@
 
 						<?php require_once 'components/print/index.php'; ?>
 
+						<?php require_once 'components/digital/index.php'; ?>
+
 					</div>
 				</div>
 			</div>
