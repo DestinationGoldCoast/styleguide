@@ -36,16 +36,11 @@
 				<?php require_once 'structure/header/menu.php'; ?>
 			</div>
 
-			<div class="navbar-display">
-
-				<?php require_once 'structure/header/device-switcher.html'; ?>
-
-			</div>
 		</header>
 		<main id="content" role="main">
 			<div class="container">
 				<div class="row">
-					<div id="display-switch" class="col-12">
+					<div class="col-12">
 
 						<?php require_once 'components/brand/index.php'; ?>
 
@@ -59,6 +54,8 @@
 				</div>
 			</div>
 		</main>
+
+		<?php require_once 'structure/footer/index.php'; ?>
 
 		<!-- Load in the JavaScript -->
 		<?php require_once 'structure/includes/footer-js.html'; ?>

@@ -71,23 +71,33 @@ main header.section-title h1 span {
 main hr.mt-100 {
   margin-top: 100px;
 }
-@font-face {
-  main {
-    font-family: "helvetica_neue";
-    src: url("../assets/brand/font/HelveticaNeueLTStd-LtCn.eot");
-    src: url("../assets/brand/font/HelveticaNeueLTStd-LtCn.eot?#iefix") format("embedded-opentype"), url("../assets/brand/font/HelveticaNeueLTStd-LtCn.woff2") format("woff2"), url("../assets/brand/font/HelveticaNeueLTStd-LtCn.woff") format("woff"), url("../assets/brand/font/HelveticaNeueLTStd-LtCn.ttf") format("truetype"), url("../assets/brand/font/HelveticaNeueLTStd-LtCn.svg#svgFontName") format("svg");
-  }
-}
 
-.col-4 #switch-target,
-.col-8 #switch-target {
-  flex: 0 0 100%;
-  max-width: 100%;
+.footer {
+  background: #000;
+  height: calc( 100vh - 102px);
+  padding-bottom: 40px;
+  position: relative;
+  width: 100%;
 }
-
-.col-8 #switch-target .col-sm-6 {
-  flex: 0 0 50%;
-  max-width: 50%;
+.footer img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.footer p {
+  bottom: 40px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.footer p a {
+  color: #fff;
 }
 
 /*# sourceMappingURL=structure.css.map */
