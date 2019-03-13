@@ -57,7 +57,6 @@
 
 		<?php require_once 'structure/footer/index.php'; ?>
 
-		<!-- Load in the JavaScript -->
 		<?php require_once 'structure/includes/footer-js.html'; ?>
 
 	</body>
