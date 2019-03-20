@@ -1,44 +1,29 @@
-<?php
-require_once 'partials/introduction.html';
-?>
+{% include_relative partials/introduction.html %}
 
 <hr class="mt-100">
 
-<?php
-require_once 'partials/brand.html';
-?>
+{% include_relative partials/brand.html %}
 
 <hr class="mt-100">
 
-<?php
-require_once 'partials/tone-of-voice.html';
-?>
+{% include_relative partials/tone-of-voice.html %}
 
 <hr class="mt-100">
 
-<?php
-require_once 'partials/logos-devices.html';
-?>
+{% include_relative partials/logos-devices.html %}
 
 <hr class="mt-100">
 
-<?php
-require_once 'partials/primary-typeface.html';
-?>
+{% include_relative partials/primary-typeface.html %}
 
 <hr class="mt-100">
 
-<?php
-require_once 'partials/fall-back-typeface.html';
-?>
+{% include_relative partials/fall-back-typeface.html %}
 
 <hr class="mt-100">
 
-<?php
-require_once 'partials/decorative-typeface.html';
-?>
+{% include_relative partials/decorative-typeface.html %}
 
 <hr class="mt-100">
 
-<?php
-require_once 'partials/photography.html';
+{% include_relative partials/photography.html %}
