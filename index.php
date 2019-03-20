@@ -26,13 +26,14 @@
 			<span class="skiplink-text">Skip to main content</span>
 		</a>
 		<header class="navbar fixed-top shadow-sm bg-white">
-			<div class="navbar-logo">
+
+			<div class="col-md-7 navbar-logo">
 
 				<?php require_once 'structure/header/logo.html'; ?>
 
 			</div>
 
-			<div class="navbar-menu">
+			<div class="col-md-5 navbar-menu">
 				<?php require_once 'structure/header/menu.php'; ?>
 			</div>
 

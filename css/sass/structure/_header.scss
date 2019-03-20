@@ -1,31 +1,13 @@
 header {
     .navbar-nav {
         display: block;
-        &.device-switch {
-            li {
-                display: table-cell;
-                a {
-                    display: table-row;
-                    vertical-align: bottom;
-                    &:hover {
-                        text-decoration: none;
-                        color: $cool-gray;
-                    }
-                    i {
-                        display: table-cell;
-                        vertical-align: bottom;
-                    }
-                    span {
-                        display: table-cell;
-                        line-height: 1;
-                        vertical-align: bottom;
-                    }
-                }
-            }
-        }
         li {
             .nav-item {
                 margin-right: 20px;
+                &.dropdown-toggle::after {
+                    display: block;
+                    margin-left: .05em;
+                }
             }
             .dropdown-menu {
                 position: absolute;
