@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DGC Style guide</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> {% include_relative structure/includes/header-includes.html %}
+
+</head>
+
+<body>
+    <a id="skippy" class="sr-only sr-only-focusable" href="">
+        <span class="skiplink-text">Skip to main content</span>
+    </a>
+    <header class="navbar fixed-top shadow-sm bg-white">
+
+        <div class="col-md-7 navbar-logo">
+
+            {% include_relative structure/header/logo.html %}
+
+        </div>
+
+        <div class="col-md-5 navbar-menu">
+
+            {% include_relative structure/header/menu.html %}
+
+        </div>
+
+    </header>
+    <main id="content" role="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    {% include_relative components/brand/index.html %} {% include_relative components/print/index.html %} {% include_relative components/digital/index.html %} {% include_relative components/website/index.html %}
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    {% include_relative structure/footer/index.html %} {% include_relative structure/includes/footer-js.html %}
+
+</body>
+
+</html>
