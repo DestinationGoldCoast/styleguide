@@ -3,6 +3,8 @@
 ## Jekyll & Github Pages
 This styleguide uses (https://jekyllrb.com) as the templating engine so the styleguide can be hosted on GitHub Pages (https://pages.github.com/).
 
+Any changes made to the master branch will be viewable on the styleguide url - https://destinationgoldcoast.github.io/styleguide/
+
 ## CSS Preprocessor - SASS
 Please refer to https://sass-lang.com/
 
