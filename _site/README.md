@@ -12,6 +12,11 @@ Please refer to https://sass-lang.com/
 Please refer to https://gulpjs.com/
 
 ## Development Workflow
+### Jekyll - Local server
+Once you have Jekyll set up on your machine and want to spin up a local host, run from the terminal:
+- bundle exec jekyll serve
+- visit http://127.0.0.1:4000
+
 ### SASS - Structure of Style Guide
 sass --watch styleguide/assets/css/sass/structure.scss:styleguide/assets/css/structure.css
 
