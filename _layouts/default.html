@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DGC Style guide</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	{% include header-includes.html %}
+
+</head>
+
+<body>
+    <a id="skippy" class="sr-only sr-only-focusable" href="">
+        <span class="skiplink-text">Skip to main content</span>
+    </a>
+    <header class="navbar fixed-top shadow-sm bg-white">
+
+        <div class="col-md-7 navbar-logo">
+
+            {% include logo.html %}
+
+        </div>
+
+        <div class="col-md-5 navbar-menu">
+			<ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+
+				{% include header-menu.html %}
+
+			</ul>
+        </div>
+
+    </header>
+    <main id="content" role="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+					{% include brand-introduction.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-brand.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-tone-of-voice.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-logos-devices.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-primary-typeface.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-fall-back-typeface.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-decorative-typeface.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-photography.html %}
+                    <!-- NEED TO ADD
+
+
+						components/print/index.html
+
+						components/digital/index.html
+
+						components/website/index.html -->
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+	<div id="footer" class="footer">
+
+		{% include footer.html %}
+
+	</div>
+
+	{% include footer-js.html %}
+
+</body>
+
+</html>
