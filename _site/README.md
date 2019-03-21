@@ -16,11 +16,10 @@ Please refer to https://gulpjs.com/
 - The master branch is used as the live style guide branch so only merge to master when the change is ready for public viewing. The live branch can be configured in GitHub settings in the styleguide repo.
 
 - When branching please use the following naming conventions:
--- styleguide/name-of-feature
---- Use this convention when making changes that are directly related to DGC styles, images and content.
-
--- jekyll/name-of-feature
---- Use this convention when making changes to the Jekyll components.
+  - styleguide/name-of-feature
+    - Use this convention when making changes that are directly related to DGC styles, images and content.
+  - jekyll/name-of-feature
+    - Use this convention when making changes to the Jekyll components.
 
 
 ### Jekyll - Local server
