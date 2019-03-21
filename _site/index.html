@@ -13,8 +13,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- NEED TO ADD
-		structure/includes/header-includes.html -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/structure.css">
 
 </head>
 
@@ -25,18 +26,142 @@
     <header class="navbar fixed-top shadow-sm bg-white">
 
         <div class="col-md-7 navbar-logo">
-            LOGO AREA
-            <!-- NEED TO ADD
-				structure/header/logo.html -->
+
             <h5 class="my-3 mr-md-auto text-dark font-weight-normal"><img src="assets/logo-dgc.svg" alt="Destination Gold Coast" class="logo" width="190"></h5>
 
         </div>
 
         <div class="col-md-5 navbar-menu">
-            MENU AREA
-            <!-- NEED TO ADD
-				structure/header/menu.html -->
+			<ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
 
+				<li class="nav-item dropdown">
+    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="brand" href="#">Brand Overview</a>
+    <div class="dropdown-menu" aria-labelledby="brand">
+        <a class="dropdown-item" href="#introduction">Style Guide Introduction</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#brand-summary">Brand Summary</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#tone-voice">DGC Tone of Voice</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#logo-devices">DGC Logo & Devices</a>
+
+        <div class="dropdown-divider"></div>
+
+        <div class="dropdown-submenu">
+            <a class="dropdown-item-text dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="typefaces" href="#">DGC Typefaces</a>
+            <div class="dropdown-menu" aria-labelledby="typefaces">
+                <a class="dropdown-item" href="#primary-typeface">Primary</a>
+                <a class="dropdown-item" href="#fall-back-typeface">Fall Back</a>
+                <a class="dropdown-item" href="#decorative-typeface">Decorative</a>
+            </div>
+        </div>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#photography">DGC Photography</a>
+
+    </div>
+</li>
+
+<li class="nav-item dropdown">
+    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="print" href="#">Print Branding</a>
+    <div class="dropdown-menu" aria-labelledby="print">
+        <a class="dropdown-item" href="#print-introduction">Introduction</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item-text" href="#colour-palette">Colour Palette</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#logo-minimum">Logo Minimum Sizes</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#logo-clear">Logo Clear Space</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#prohibited-actions">Prohibited Actions</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#logo-placement">Logo Placement</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#image-formatting">Image Formatting</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#image-cropping">Image Cropping</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#typographic-hierarchy">Typographic Hierarchy</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#advertising-typography">Advertising Typography</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#brochure-typography">Brochure Typography</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#postcard-typography">Postcard Typography</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#pull-out-quotes">Pull-Out Quotes</a>
+
+    </div>
+</li>
+
+<li class="nav-item dropdown">
+    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="digital" href="#">Digital Branding</a>
+    <div class="dropdown-menu" aria-labelledby="digital">
+        <a class="dropdown-item" href="#digital-introduction">Introduction</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#digital-colour">Colour Palette</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#digital-logo-minimum-sizes">Logo Minimum Sizes</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#digital-logo-clear-space">Logo Clear Space</a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="#digital-prohibited-actions">Prohibited Actions</a>
+
+        <div class="dropdown-divider"></div>
+
+        <div class="dropdown-submenu">
+            <a class="dropdown-item-text dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="website" href="#">Website</a>
+            <div class="dropdown-menu" aria-labelledby="website">
+                <a class="dropdown-item" href="#website-introduction">Introduction</a>
+                <a class="dropdown-item" href="#content-structure">Content Structure</a>
+                <a class="dropdown-item" href="#vertical-grid">Vertical Grid</a>
+                <a class="dropdown-item" href="#content-blocks">Content Blocks</a>
+                <a class="dropdown-item" href="#website-spacing">Spacing</a>
+                <a class="dropdown-item" href="#colour-ratio">Colour Ratio</a>
+                <a class="dropdown-item" href="#website-buttons">Buttons</a>
+                <a class="dropdown-item" href="#typographic-hierarchy">Typographic Hierarchy</a>
+                <a class="dropdown-item" href="#website-typography">Typographic</a>
+            </div>
+        </div>
+    </div>
+</li>
+
+			</ul>
         </div>
 
     </header>
@@ -44,9 +169,498 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    ADD ALL THE BRAND, PRINT, DIGITAL and WEBSITE info
+
+					<div id="introduction" class="row">
+    <div class="col-sm-12">
+        <header class="section-title sub">
+            <h1>Style Guide<br/><span>Introduction</span></h1>
+        </header>
+    </div>
+    <div class="col-sm-12 col-md-4">
+
+        <p>This document contains the visual standards related to the look and feel of the Destination Gold Coast brand. The correct use and application of Destination Gold Coast’s corporate and consumer facing identity is outlined in this guide, as is the
+            correct formatting of all branded elements for both print and digital mediums.
+        </p>
+
+        <p>This style guide should always be referred to for the consistent use of Destination Gold Coast logos and all associated visual, graphic, written and typographical elements.</p>
+
+        <p>Destination Gold Coast’s brand identity and visual representation is very important to all staff and associated stakeholders. Much time and effort has been spent crafting the brand into the visual embodiment of the organisation. Destination Gold
+            Coast appreciates designers’ and developers’ adhere to the rules outlined in this guide when working with Destination Gold Coast branded elements.</p>
+
+        <p>When using Destination Gold Coast logos, or creating branded materials, please do not alter, tweak, disfigure or take any personal creative freedoms that may contradict the rules set out in this guide.</p>
+
+        <p>The following pages demonstrate examples of best practice and clarify actions that would violate the integrity of our logos and visual themes.</p>
+    </div>
+    <div class="col-sm-12 col-md-8">
+        <img style="width:100%;height:auto;" src="assets/brand/introduction/Coastline-to-Surfers-Paradise.jpg" />
+    </div>
+</div>
+
+					<hr class="mt-100">
+
+					<div id="brand-summary" class="row">
+    <div class="col-sm-12">
+        <header class="section-title sub">
+            <h1>Brand Overview<br/><span>Brand Summary</span></h1>
+        </header>
+    </div>
+    <div class="col-sm-12">
+        <div class="row">
+            <div class="col-sm-4 text-center my-auto">
+                <img src="assets/brand/brand/Book_Icon_1.png" style="width:60px;margin-bottom:20px;" />
+                <h5 class="text-uppercase">Our Brand Narrative</h5>
+            </div>
+            <div class="col-sm-8 my-auto">
+                <p>We’re the city by the sea that’s maintained its coastal town soul. We’re a place of powerful contrasts, the nostalgic and the new, the audacious and the abundant, all united by an unmistakable energy. It’s an energy as constant as the
+                    tides from our foreshore to our hinterland. It lives in our rainforests, baristas, life guards and vivid city lights. You can almost taste it in our fresh, salty air. It inspires the way we live, shapes the way we think and fuels our
+                    evolution. We’re not the place you used to know or think we might be. We are Destination Gold Coast.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-4 text-center my-auto">
+                <img src="assets/brand/brand/Diamond_Icon_2.png" style="width:60px;margin-bottom:20px;" />
+                <h5 class="text-uppercase">Our Essence</h5>
+            </div>
+            <div class="col-sm-8 my-auto">
+                <p class="text-uppercase font-weight-bold">We invite you to feel the energy</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-4 text-center my-auto">
+                <img src="assets/brand/brand/Heart_Icon_3.png" style="width:60px;margin-bottom:20px;" />
+                <h5 class="text-uppercase">Our Values</h5>
+            </div>
+            <div class="col-sm-8 my-auto">
+                <p class="text-uppercase font-weight-bold mb-0">Connection</p>
+                <p>By our very nature, we’re a place that inspires and creates true connection. Connection with loved ones, with nature, with community….with yourself.
+                </p>
+                <p class="text-uppercase font-weight-bold mb-0">Celebration</p>
+                <p>We’re a celebration of life and a reminder to live it well. We welcome you to be yourself, and revel in a place that accepts you.</p>
+                <p class="text-uppercase font-weight-bold mb-0">Enrichment</p>
+                <p>We’re a place that has the power to enrich people’s lives. We know it’s a gift not only to share, but to nurture and preserve for generations to come.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-4 text-center my-auto">
+                <img src="assets/brand/brand/Face_Icon_4.png" style="width:60px;margin-bottom:20px;" />
+                <h5 class="text-uppercase">Our Personality</h5>
+            </div>
+            <div class="col-sm-8 my-auto">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="text-uppercase font-weight-bold mb-0">Inviting</p>
+                        <p>Warm & genuine</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="text-uppercase font-weight-bold mb-0">Bold</p>
+                        <p>Confident & passionate</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="text-uppercase font-weight-bold mb-0">Spirited</p>
+                        <p>Alive & vibrant</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="text-uppercase font-weight-bold mb-0">Irreverent</p>
+                        <p>Uninhibited & charismatic</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-4 text-center my-auto">
+                <img src="assets/brand/brand/Megaphone_Icon_5.png" style="width:60px;margin-bottom:20px;" />
+                <h5 class="text-uppercase">Our Voice</h5>
+            </div>
+            <div class="col-sm-8 my-auto">
+                <p>We’re casually confident and down-to-earth. We speak as natural hosts, compelled to share the real depth of our home. Our passion for the Gold Coast is obvious, almost infectious. We welcome souls, old and new, to immerse themselves in
+                    a beautiful piece of Australia.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+					<hr class="mt-100">
+
+					<div id="tone-voice" class="row">
+    <div class="col-sm-12">
+        <header class="section-title sub">
+            <h1>Brand Overview<br/><span>Tone of Voice</span></h1>
+        </header>
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <p>Our brand voice is casually confident and down-to-earth. We speak as natural hosts, compelled to share the real depth of our home.</p>
+
+        <p>Our passion for the Gold Coast is obvious, almost infectious. Our tone is relatable to all. Exclamation marks, slang or pop culture references aren’t who we are. Likewise, we’re not overly formal. We are who we are – casual, confident, charismatic,
+            warm and genuine. This energy gauge shows how we achieve our casually confident tone.</p>
+    </div>
+    <div class="col-sm-12 col-md-8">
+        <div class="row">
+            <div class="col-sm-2 col-md-3 text-center">
+                <img src="assets/brand/tone-of-voice/speaker_icon.png" style="width:auto;height:50px;margin-bottom:30px;" />
+                <h5 class="text-uppercase">Volume</h5>
+                <img src="assets/brand/tone-of-voice/volume.jpg" />
+            </div>
+            <div class="col-sm-2 col-md-3 text-center">
+                <img src="assets/brand/tone-of-voice/battery_icon.png" style="width:auto;height:50px;margin-bottom:30px;" />
+                <h5 class="text-uppercase">Energy</h5>
+                <img src="assets/brand/tone-of-voice/energy.jpg" />
+            </div>
+            <div class="col-sm-2 col-md-3 text-center">
+                <img src="assets/brand/tone-of-voice/compass_icon.png" style="width:auto;height:50px;margin-bottom:30px;" />
+                <h5 class="text-uppercase">Familiarity</h5>
+                <img src="assets/brand/tone-of-voice/familiarity.jpg" />
+            </div>
+            <div class="col-sm-2 col-md-3 text-center">
+                <img src="assets/brand/tone-of-voice/thumbs_up_icon.png" style="width:auto;height:50px;margin-bottom:30px;" />
+                <h5 class="text-uppercase">Attitude</h5>
+                <img src="assets/brand/tone-of-voice/attitude.jpg" />
+            </div>
+        </div>
+    </div>
+</div>
+
+					<hr class="mt-100">
+
+					<div id="logo-devices" class="row">
+    <div class="col-sm-12">
+        <header class="section-title sub">
+            <h1>Brand Overview<br/><span>Logos & Devices</span></h1>
+        </header>
+    </div>
+    <div class="col-sm-12 col-md-3">
+        <h5 class="text-uppercase">Master</h5>
+        <p class="font-weight-bold mb-0">Positive</p>
+        <img src="assets/brand/logos-devices/master-positive.png" style="width:100%;height:auto;padding:31px 20px;" />
+        <p class="font-weight-bold mb-0 mt-4">Reverse</p>
+        <img src="assets/brand/logos-devices/master-negative.png" style="width:100%;height:auto;padding:31px 20px;background:#000;" />
+        <p class="font-weight-bold text-uppercase mb-0 mt-4">Usage</p>
+        <p>The master City of Gold Coast logo is for co-operative activity and used at the discretion of the Digital Brand & Content team only.</p>
+
+        <p class="font-weight-bold text-uppercase">Example Use</p>
+        <ul>
+            <li>Co-operative merchandise</li>
+            <li>Discretionary initiatives</li>
+        </ul>
+    </div>
+    <div class="col-sm-12 col-md-3">
+        <h5 class="text-uppercase">Corporate</h5>
+        <p class="font-weight-bold mb-0">Positive</p>
+        <img src="assets/brand/logos-devices/corporate-positive.png" style="width:100%;height:auto;padding:20px;" />
+        <p class="font-weight-bold mb-0 mt-4">Reverse</p>
+        <img src="assets/brand/logos-devices/corporate-negative.png" style="width:100%;height:auto;padding:20px;background:#000;" />
+        <p class="font-weight-bold text-uppercase mb-0 mt-4">Usage</p>
+        <p>The corporate Destination Gold Coast logo is for business activity and used to promote our corporate brand identity. It is applied to corporate, financial, legal and internal documents that represent the organisation.</p>
+        <p class="font-weight-bold text-uppercase">Example Use</p>
+        <ul>
+            <li>Sponsorship</li>
+            <li>Presentations / reports</li>
+            <li>Forms / policies</li>
+            <li>Briefing templates</li>
+            <li>Stationery</li>
+        </ul>
+    </div>
+    <div class="col-sm-12 col-md-3">
+        <h5 class="text-uppercase">Global Consumer*</h5>
+        <p class="font-weight-bold mb-0">Positive</p>
+        <img src="assets/brand/logos-devices/global-positive.png" style="width:100%;height:auto;padding:18px 20px;" />
+        <p class="font-weight-bold mb-0 mt-4">Reverse</p>
+        <img src="assets/brand/logos-devices/global-negative.png" style="width:100%;height:auto;padding:18px 20px;background:#000;" />
+        <p class="font-weight-bold text-uppercase mb-0 mt-4">Usage</p>
+        <p>The We Are Destination Gold Coast logo is to be used for the positive promotion of the destination in consumer facing activity in domestic and international markets *except China.</p>
+        <p class="font-weight-bold text-uppercase">Example Use</p>
+        <ul>
+            <li>Trade shows / expos / events</li>
+            <li>Outdoor / signage / banners</li>
+            <li>Flyers / brochures / press / POS</li>
+            <li>Website / eDM / social / influencer</li>
+        </ul>
+    </div>
+    <div class="col-sm-12 col-md-3">
+        <h5 class="text-uppercase">Chinese Consumer</h5>
+        <p class="font-weight-bold mb-0">Positive</p>
+        <img src="assets/brand/logos-devices/corporate-positive.png" style="width:100%;height:auto;padding:20px;" />
+        <p class="font-weight-bold mb-0 mt-4">Reverse</p>
+        <img src="assets/brand/logos-devices/corporate-negative.png" style="width:100%;height:auto;padding:20px;background:#000;" />
+        <p class="font-weight-bold text-uppercase mb-0 mt-4">Usage</p>
+        <p>The corporate Destination Gold Coast logo is used for consumer facing activity in the China market for the positive promotion of the destination. </p>
+        <p class="font-weight-bold text-uppercase">Example Use</p>
+        <ul>
+            <li>Trade shows / expos / events</li>
+            <li>Outdoor / signage / banners</li>
+            <li>Flyers / brochures / press / POS</li>
+            <li>Website / eDM / social / influencer</li>
+        </ul>
+    </div>
+
+    <div class="col-sm-12 col-md-6 mt-5">
+        <h5 class="text-uppercase">Corporate (Unlocked)</h5>
+        <p class="font-weight-bold mb-0">Positive</p>
+        <img src="assets/brand/logos-devices/corporate-positive-unlocked.png" style="width:100%;height:auto;padding:30px 30px;" />
+        <p class="font-weight-bold mb-0 mt-4">Reverse</p>
+        <img src="assets/brand/logos-devices/corporate-negative-unlocked.png" style="width:100%;height:auto;padding:30px 30px;background:#000;" />
+    </div>
+    <div class="col-sm-12 col-md-6 mt-5">
+        <h5 class="text-uppercase">Global Consumer (Unlocked)</h5>
+        <p class="font-weight-bold mb-0">Positive</p>
+        <img src="assets/brand/logos-devices/global-consumer-positive-unlocked.png" style="width:100%;height:auto;padding:34px 30px;" />
+        <p class="font-weight-bold mb-0 mt-4">Reverse</p>
+        <img src="assets/brand/logos-devices/global-consumer-negative-unlocked.png" style="width:100%;height:auto;padding:34px 30px;background:#000;" />
+    </div>
+
+    <div class="col-sm-12 mt-5">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-dark font-weight-bold text-uppercase" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Colours
+							</button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse px-3 py-3" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-3">
+                                    <div style="background:#000;width:100px;height:100px;"></div>
+                                    <p class="font-weight-bold text-uppercase">Black</p>
+                                </div>
+                                <div class="col-sm-12 col-md-7">
+                                    <p class="font-weight-bold mb-0">Process</p>
+                                    <p><strong>C:</strong>0, <strong>M:</strong>0, <strong>Y:</strong>0, <strong>K:</strong>100</p>
+                                    <hr>
+                                    <p class="font-weight-bold mb-0">Spot</p>
+                                    <p>Pantone Black C</p>
+                                    <hr>
+                                    <p class="font-weight-bold mb-0">RGB</p>
+                                    <p><strong>R:</strong>0, <strong>G:</strong>0, <strong>B:</strong>0</p>
+                                    <hr>
+                                    <p class="font-weight-bold mb-0">HEX</p>
+                                    <p>000000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-3">
+                                    <div style="background:#fff;border:1px solid #000;width:100px;height:100px;"></div>
+                                    <p class="font-weight-bold text-uppercase">White</p>
+                                </div>
+                                <div class="col-sm-12 col-md-7">
+                                    <p class="font-weight-bold mb-0">Process</p>
+                                    <p><strong>C:</strong>0, <strong>M:</strong>0, <strong>Y:</strong>0, <strong>K:</strong>0</p>
+                                    <hr>
+                                    <p class="font-weight-bold mb-0">Spot</p>
+                                    <p>N/A</p>
+                                    <hr>
+                                    <p class="font-weight-bold mb-0">RGB</p>
+                                    <p><strong>R:</strong>255, <strong>G:</strong>255, <strong>B:</strong>255</p>
+                                    <hr>
+                                    <p class="font-weight-bold mb-0">HEX</p>
+                                    <p>FFFFFF</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="col-sm-12 col-md-4 mt-5">
+    <h5 class="text-uppercase">Hashtag Device</h5>
+    <p>The “wearegoldcoast” hashtag is a graphic device used to encourage target audiences to tag their Gold Coast specific content on social media platforms, such as Instagram.</p>
+
+    <p>When used outside of the social media sphere, this device is only to be used under certain circumstances for specific marketing collateral and communications.</p>
+
+    <p>Often this hashtag device is used when both City of Gold Coast and Destination Gold Coast are represented within a partnership. In this instance, the City of Gold Coast logo will preside over the Destination Gold Coast logo which will be supplemented
+        with the hashtag device. Users must first seek permission from Destination Gold Coast should they wish to use the “wearegoldcoast” hashtag device within promotional materials.</p>
+</div>
+<div class="col-sm-12 col-md-4 mt-5">
+    <p class="font-weight-bold">Positive</p>
+    <img src="assets/brand/logos-devices/hashtag.png" style="width:100%;height:auto;margin-bottom:15px;padding:20px;" />
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <div style="background:#000;width:100px;height:100px;"></div>
+            <p class="font-weight-bold text-uppercase">Black</p>
+        </div>
+        <div class="col-sm-12 col-md-8">
+            <p class="font-weight-bold mb-0">Process</p>
+            <p><strong>C:</strong>0, <strong>M:</strong>0, <strong>Y:</strong>0, <strong>K:</strong>100</p>
+            <hr>
+            <p class="font-weight-bold mb-0">Spot</p>
+            <p>Pantone Black C</p>
+            <hr>
+            <p class="font-weight-bold mb-0">RGB</p>
+            <p><strong>R:</strong>0, <strong>G:</strong>0, <strong>B:</strong>0</p>
+            <hr>
+            <p class="font-weight-bold mb-0">HEX</p>
+            <p>000000</p>
+        </div>
+    </div>
+
+</div>
+<div class="col-sm-12 col-md-4 mt-5">
+    <p class="font-weight-bold">Reverse</p>
+    <img src="assets/brand/logos-devices/hashtag-reverse.png" style="width:100%;height:auto;margin-bottom:15px;padding:20px;background:#000;" />
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <div style="background:#fff;border:1px solid #000;width:100px;height:100px;"></div>
+            <p class="font-weight-bold text-uppercase">White</p>
+        </div>
+        <div class="col-sm-12 col-md-8">
+            <p class="font-weight-bold mb-0">Process</p>
+            <p><strong>C:</strong>0, <strong>M:</strong>0, <strong>Y:</strong>0, <strong>K:</strong>0</p>
+            <hr>
+            <p class="font-weight-bold mb-0">Spot</p>
+            <p>N/A</p>
+            <hr>
+            <p class="font-weight-bold mb-0">RGB</p>
+            <p><strong>R:</strong>255, <strong>G:</strong>255, <strong>B:</strong>255</p>
+            <hr>
+            <p class="font-weight-bold mb-0">HEX</p>
+            <p>FFFFFF</p>
+        </div>
+    </div>
+</div>
+</div>
+
+					<hr class="mt-100">
+
+					<div id="primary-typeface" class="row">
+    <div class="col-sm-12">
+        <header class="section-title sub">
+            <h1>Brand Overview<br/><span>Primary Typeface</span></h1>
+        </header>
+    </div>
+
+    <div class="col-sm-12 col-md-4">
+        <p>Our primary brand typeface is Helvetica Neue, a contemporary sans serif typeface. Helvetica Neue was not only used in the creation of the logo, it is also the corporate typeface used throughout all our collateral.</p>
+
+        <p>Used in four weights and two cases, this typeface provides our brand with a modern simplicity that is visually strong and highly legible.</p>
+    </div>
+    <div class="col-sm-12 col-md-8">
+        <img src="assets/brand/primary-typeface/helvetica-neue.png" style="width:100%;" />
+    </div>
+</div>
+
+					<hr class="mt-100">
+
+					<div id="fall-back-typeface" class="row">
+    <div class="col-sm-12">
+        <header class="section-title sub">
+            <h1>Brand Overview<br/><span>Fall Back Typeface</span></h1>
+        </header>
+    </div>
+
+    <div class="col-sm-12 col-md-4">
+        <p>In the event that it is not possible to use the primary Helvetica Neue typeface, it is permissible to use Arial Condensed as an alternative fall-back typeface.</p>
+
+        <p>Prior to use however, the user must first actively seek to obtain the font files for the Helvetica Neue typeface from Destination Gold Coast. This can be done by emailing:</p>
+
+        <p><a title="Email creative@destinationgoldcoast.com" href="mailto:creative@destinationgoldcoast.com">creative@destinationgoldcoast.com</a></p>
+    </div>
+    <div class="col-sm-12 col-md-8">
+        <img src="assets/brand/fallback-typeface/arial-condensed.png" style="width:100%;" />
+    </div>
+</div>
+
+					<hr class="mt-100">
+
+					<div id="decorative-typeface" class="row">
+    <div class="col-sm-12">
+        <header class="section-title sub">
+            <h1>Brand Overview<br/><span>Decorative Typeface</span></h1>
+        </header>
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <p>Black Diamond was used in the creation of the We are Gold Coast “Hashtag” device and is to be used sparingly and only under special circumstances.
+        </p>
+
+        <p>Users must first seek permission from Destination Gold Coast should they wish to use the Black Diamond typeface within any promotional materials.</p>
+
+    </div>
+    <div class="col-sm-12 col-md-8">
+        <img src="assets/brand/decorative-typeface/black-diamond.png" style="width:100%;" />
+    </div>
+</div>
+
+					<hr class="mt-100">
+
+					<div id="photography" class="row">
+    <div class="col-sm-12">
+        <header class="section-title sub">
+            <h1>Brand Overview<br/><span>Photography</span></h1>
+        </header>
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <p>Photography is a critical visual component used to express the essence of the Destination Gold Coast brand. A compelling image can capture the imagination of a traveller or provide a glimpse into life on the Gold Coast.</p>
+        <p>Our research shows people have a stereotypical preconception of the Gold Coast. This preconception is that the Gold Coast is known for saturated blue skies, golden glowing sand and flawless talent. Our destination is so much more than this, which
+            is why our photographic style must always reflect the “REAL”us. The real colour and people of the Gold Coast. The imagery we use affects the way the viewer feels about the Gold Coast. We choose warm tones, combined with natural colour palettes
+            that reflect our diverse landscape. We don’t oversaturate imagery.</p>
+        <p>Our images are honest, emotionally potent and feature real people. Whether we are capturing a moment of connection between loved ones, the defiant look in the eyes of a surfer about to paddle out, or the contagious giggles of children being children.
+            Our people first approach to imagery conveys a genuine sense of what we stand for - connection, celebration and enrichment.</p>
+        <p><strong>Note:</strong> To obtain Destination Gold Coast approved imagery, users can request access to our Digital Asset Management System by emailing:</p>
+        <p><a title="Email creative@destinationgoldcoast.com" href="mailto:creative@destinationgoldcoast.com">creative@destinationgoldcoast.com</a></p>
+    </div>
+    <div class="col-sm-12 col-md-8">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <figure>
+                    <img src="assets/brand/photography/Dreamworld-Puss-in-Boots-Sword-Swing-children-on-swings.jpg" style="width:100%;height:auto;" />
+                </figure>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <figure>
+                    <img src="assets/brand/photography/Surfer-girl-sunrise-sitting.jpg" style="width:100%;height:auto;" />
+                </figure>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <figure>
+                    <img src="assets/brand/photography/Musician-at-Miami-Marketta.jpg" style="width:100%;height:auto;" />
+                </figure>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <figure>
+                    <img src="assets/brand/photography/Boy-walking-across-sand-Hero-DGC.jpg" style="width:100%;height:auto;" />
+                </figure>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <figure>
+                    <img src="assets/brand/photography/Mount-Tamborine-woman-walking-Witches-Fall-Bush-Walk-at-falls.jpg" style="width:100%;height:auto;" />
+                </figure>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <figure>
+                    <img src="assets/brand/photography/Mermaid-Beach-lifeguard-tower-sunrise.jpg" style="width:100%;height:auto;" />
+                </figure>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <figure>
+                    <img src="assets/brand/photography/Aerial-of-waterways-boat-and-jet-ski.jpg" style="width:100%;height:auto;" />
+                </figure>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <figure>
+                    <img src="assets/brand/photography/Girl-with-surfboard-looking-at-ocean-wave-splash.jpg" style="width:100%;height:auto;" />
+                </figure>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <figure>
+                    <img src="assets/brand/photography/Dreamworld-little-girl-in-pink-tutu-with-balloons.jpg" style="width:100%;height:auto;" />
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>
                     <!-- NEED TO ADD
-						components/brand/index.html
+
 
 						components/print/index.html
 
@@ -59,10 +673,18 @@
         </div>
     </main>
 
-    <!-- NEED TO ADD
-		structure/footer/index.html
+	<div id="footer" class="footer">
 
-		structure/includes/footer-js.html -->
+		<img src="assets/common/logos/corporate-negative.png" />
+<p><a title="Go to destinationgoldcoast.com" href="https://www.destinationgoldcoast.com/">destinationgoldcoast.com</a></p>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- This one is just for making the style guide, do not include in production -->
+<script src="js/structure.js"></script>
 
 </body>
 

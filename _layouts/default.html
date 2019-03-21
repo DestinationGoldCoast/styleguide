@@ -13,8 +13,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- NEED TO ADD
-		structure/includes/header-includes.html -->
+	{% include header-includes.html %}
 
 </head>
 
@@ -25,18 +24,17 @@
     <header class="navbar fixed-top shadow-sm bg-white">
 
         <div class="col-md-7 navbar-logo">
-            LOGO AREA
-            <!-- NEED TO ADD
-				structure/header/logo.html -->
+
             {% include logo.html %}
 
         </div>
 
         <div class="col-md-5 navbar-menu">
-            MENU AREA
-            <!-- NEED TO ADD
-				structure/header/menu.html -->
+			<ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
 
+				{% include header-menu.html %}
+
+			</ul>
         </div>
 
     </header>
@@ -44,9 +42,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    ADD ALL THE BRAND, PRINT, DIGITAL and WEBSITE info
+
+					{% include brand-introduction.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-brand.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-tone-of-voice.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-logos-devices.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-primary-typeface.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-fall-back-typeface.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-decorative-typeface.html %}
+
+					<hr class="mt-100">
+
+					{% include brand-photography.html %}
                     <!-- NEED TO ADD
-						components/brand/index.html
+
 
 						components/print/index.html
 
@@ -59,10 +86,13 @@
         </div>
     </main>
 
-    <!-- NEED TO ADD
-		structure/footer/index.html
+	<div id="footer" class="footer">
 
-		structure/includes/footer-js.html -->
+		{% include footer.html %}
+
+	</div>
+
+	{% include footer-js.html %}
 
 </body>
 
