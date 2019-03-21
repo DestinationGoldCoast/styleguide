@@ -13,7 +13,7 @@ Please refer to https://gulpjs.com/
 
 ## Development Workflow
 ### SASS - Structure of Style Guide
-sass --watch styleguide/css/sass/structure.scss:styleguide/css/structure.css
+sass --watch styleguide/assets/css/sass/structure.scss:styleguide/assets/css/structure.css
 
 ## Code Editor
 If you are using VS Code, I recommend installing vscode-prettydiff (https://marketplace.visualstudio.com/items?itemName=HexcodeTechnologies.vscode-prettydiff) to help with Jekyll in your html pages.
