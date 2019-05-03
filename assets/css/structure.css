@@ -1,26 +1,80 @@
 /* Colors - Primary */
 /* Colors - Secondary */
-header .navbar-nav {
-  display: block; }
-  header .navbar-nav li .nav-item {
-    margin-right: 20px; }
-    header .navbar-nav li .nav-item.dropdown-toggle::after {
+header .navbar {
+  justify-content: flex-end;
+  background: transparent;
+  position: absolute;
+  top: 27px;
+  right: 0px; }
+  header .navbar .navbar-toggler {
+    padding: .5rem; }
+    header .navbar .navbar-toggler:not(.collapsed) .icon-bar.top-bar {
+      transform: translateY(6px) rotate(45deg); }
+    header .navbar .navbar-toggler:not(.collapsed) .icon-bar.middle-bar {
+      opacity: 0;
+      transform: translateX(-100%); }
+    header .navbar .navbar-toggler:not(.collapsed) .icon-bar.bottom-bar {
+      transform: translateY(-6px) rotate(-45deg); }
+    header .navbar .navbar-toggler .icon-bar {
+      background-color: #000;
       display: block;
-      margin-left: .05em; }
-  header .navbar-nav li .dropdown-menu {
-    position: absolute; }
-  header .navbar-nav a {
-    color: #000; }
-  header .navbar-nav .dropdown-submenu {
-    position: relative; }
-    header .navbar-nav .dropdown-submenu a.dropdown-toggle::after {
-      transform: rotate(-90deg);
-      vertical-align: 0.155em; }
-    header .navbar-nav .dropdown-submenu .dropdown-menu {
-      top: 0;
-      left: 100%;
-      margin-left: .1rem;
-      margin-right: .1rem; }
+      margin-top: 4px;
+      transition: opacity, transform;
+      transition-duration: 200ms;
+      transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
+      width: 22px;
+      height: 2px; }
+  header .navbar .navbar-nav {
+    background: #484545;
+    border-bottom-right-radius: .2rem;
+    border-bottom-left-radius: .2rem;
+    padding: 1rem 2rem;
+    position: relative;
+    top: 36px; }
+    header .navbar .navbar-nav li .nav-item {
+      margin: 0 20px; }
+      header .navbar .navbar-nav li .nav-item.dropdown-toggle::after {
+        border-top: 1px solid;
+        border-right: 1px solid;
+        border-bottom: 0;
+        border-left: 0;
+        content: '';
+        display: inline-block;
+        height: 0.5rem;
+        left: 0.5rem;
+        position: relative;
+        top: -0.3rem;
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
+        -webkit-transition: -webkit-transform .2s ease-in-out;
+        transition: -webkit-transform .2s ease-in-out;
+        transition: transform .2s ease-in-out;
+        transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+        vertical-align: middle;
+        width: 0.5rem; }
+    header .navbar .navbar-nav li .dropdown-menu.show {
+      background-color: #fff;
+      border-radius: 0;
+      width: 100%;
+      position: static; }
+      header .navbar .navbar-nav li .dropdown-menu.show a {
+        color: #000; }
+    header .navbar .navbar-nav a {
+      color: #fff;
+      text-transform: uppercase; }
+    header .navbar .navbar-nav .dropdown-submenu {
+      position: relative; }
+      header .navbar .navbar-nav .dropdown-submenu a.dropdown-toggle::after {
+        transform: rotate(-90deg);
+        vertical-align: 0.155em; }
+      header .navbar .navbar-nav .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-left: .1rem;
+        margin-right: .1rem; }
+        header .navbar .navbar-nav .dropdown-submenu .dropdown-menu.show {
+          padding-left: 1.5rem;
+          border: 0; }
 
 main {
   top: 100px;
@@ -65,5 +119,27 @@ main {
     width: 100%; }
     .footer p a {
       color: #fff; }
+
+@media (min-width: 768px) {
+  header .navbar {
+    position: relative;
+    top: auto !important; }
+    header .navbar .navbar-nav {
+      background: #fff;
+      flex-direction: row;
+      justify-content: flex-end;
+      position: initial;
+      width: 100%; }
+      header .navbar .navbar-nav li .dropdown-menu.show {
+        position: absolute;
+        width: auto; }
+      header .navbar .navbar-nav li a {
+        color: #000; }
+      header .navbar .navbar-nav .dropdown-submenu .dropdown-menu.show {
+        border-right: 1px;
+        border-left: 1px;
+        margin-right: 0;
+        margin-left: 0;
+        position: initial; } }
 
 /*# sourceMappingURL=structure.css.map */

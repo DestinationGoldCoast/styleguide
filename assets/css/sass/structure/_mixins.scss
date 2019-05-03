@@ -1,0 +1,20 @@
+@mixin menu-carrot {
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 0;
+    border-left: 0;
+    content: '';
+    display: inline-block;
+    height: 0.5rem;
+    left: 0.5rem;
+    position: relative;
+    top: -0.3rem;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    vertical-align: middle;
+    width: 0.5rem;
+}

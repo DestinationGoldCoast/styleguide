@@ -21,6 +21,8 @@ Please refer to https://gulpjs.com/
   - jekyll/name-of-feature
     - Use this convention when making changes to the Jekyll components.
 
+### Say no to _site
+When looking for code to change, DO NOT start changing things in the _site folder, _site is the location folder that Jekyll outputs the production files.
 
 ### Jekyll - Local server
 Once you have Jekyll (https://jekyllrb.com) set up on your machine, to spin up a local host use the terminal to cd into your style guide directory and run:
