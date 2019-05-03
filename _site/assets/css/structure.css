@@ -82,6 +82,8 @@ main {
   padding: 0 15px 150px; }
   main header.section-title {
     margin-bottom: 40px; }
+    main header.section-title.sub {
+      padding-top: 155px; }
     main header.section-title h1 {
       border-left: 1px solid #000;
       font-weight: 100;
@@ -92,8 +94,7 @@ main {
       main header.section-title h1 span {
         font-weight: bold; }
   main hr.my-100 {
-    margin-top: 100px;
-    margin-bottom: 100px; }
+    margin-top: 155px; }
 
 .footer {
   background: #000;

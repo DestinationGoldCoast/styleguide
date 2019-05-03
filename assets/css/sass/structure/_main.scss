@@ -4,9 +4,9 @@ main {
     padding: 0 15px 150px;
     header.section-title {
         margin-bottom: 40px;
-        // &.sub {
-        //     padding-top: 105px;
-        // }
+        &.sub {
+            padding-top: 155px;
+        }
         h1 {
             border-left: 1px solid $black;
             font-weight: 100;
@@ -21,8 +21,7 @@ main {
     }
     hr {
         &.my-100 {
-            margin-top: 100px;
-            margin-bottom: 100px;
+            margin-top: 155px;
         }
     }
 }
