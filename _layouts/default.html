@@ -11,9 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>DGC Style guide</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-	{% include header-includes.html %}
+    <meta name="viewport" content="width=device-width, initial-scale=1"> {% include header-includes.html %}
 
 </head>
 
@@ -23,182 +21,120 @@
     </a>
     <header class="navbar fixed-top shadow-sm bg-white">
 
-        <div class="col-md-7 navbar-logo">
+        <div class="col-md-3 navbar-logo">
 
             {% include logo.html %}
 
         </div>
+        <nav class="navbar col-md-9 navbar-expand-md">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar top-bar my-0"></span>
+				<span class="icon-bar middle-bar"></span>
+				<span class="icon-bar bottom-bar"></span>
+			</button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
 
-        <div class="col-md-5 navbar-menu">
-			<ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+                    {% include header-menu.html %}
 
-				{% include header-menu.html %}
-
-			</ul>
-        </div>
-
+                </ul>
+            </div>
+        </nav>
     </header>
     <main id="content" role="main">
         <div class="container">
             <div class="row">
                 <div class="col-12">
 
-					<!-- BRAND -->
+                    <!-- BRAND -->
 
-					{% include brand-introduction.html %}
+                    {% include brand-introduction.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include brand-brand.html %}
 
-					{% include brand-brand.html %}
+                    <hr class="mt-100"> {% include brand-tone-of-voice.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include brand-logos-devices.html %}
 
-					{% include brand-tone-of-voice.html %}
+                    <hr class="mt-100"> {% include brand-primary-typeface.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include brand-fall-back-typeface.html %}
 
-					{% include brand-logos-devices.html %}
+                    <hr class="mt-100"> {% include brand-decorative-typeface.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include brand-photography.html %}
 
-					{% include brand-primary-typeface.html %}
+                    <!-- PRINT -->
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include print-introduction.html %}
 
-					{% include brand-fall-back-typeface.html %}
+                    <hr class="mt-100"> {% include print-colour-palette.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include print-logo-minimum-size.html %}
 
-					{% include brand-decorative-typeface.html %}
+                    <hr class="mt-100"> {% include print-logo-clear-space.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include print-prohibited-actions.html %}
 
-					{% include brand-photography.html %}
+                    <hr class="mt-100"> {% include print-logo-placement.html %}
 
-					<!-- PRINT -->
+                    <hr class="mt-100"> {% include print-image-formatting.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include print-image-cropping.html %}
 
-					{% include print-introduction.html %}
+                    <hr class="mt-100"> {% include print-typographic-hierarchy.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include print-advertising-typography.html %}
 
-					{% include print-colour-palette.html %}
+                    <hr class="mt-100"> {% include print-brochure-typography.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include print-postcard-typography.html %}
 
-					{% include print-logo-minimum-size.html %}
+                    <hr class="mt-100"> {% include print-pull-out-quotes.html %}
 
-					<hr class="mt-100">
+                    <!-- DIGITAL -->
+                    <hr class="mt-100"> {% include digital-introduction.html %}
 
-					{% include print-logo-clear-space.html %}
+                    <hr class="mt-100"> {% include digital-colour-palette.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include digital-logo-minimum-sizes.html %}
 
-					{% include print-prohibited-actions.html %}
+                    <hr class="mt-100"> {% include digital-logo-clear-space.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include digital-prohibited-actions.html %}
 
-					{% include print-logo-placement.html %}
+                    <!-- WEBSITE -->
+                    <hr class="mt-100"> {% include website-introduction.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include website-content-structure.html %}
 
-					{% include print-image-formatting.html %}
+                    <hr class="mt-100"> {% include website-vertical-grid.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include website-content-blocks.html %}
 
-					{% include print-image-cropping.html %}
+                    <hr class="mt-100"> {% include website-spacing.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include website-colour-ratio.html %}
 
-					{% include print-typographic-hierarchy.html %}
+                    <hr class="mt-100"> {% include website-website-buttons.html %}
 
-					<hr class="mt-100">
+                    <hr class="mt-100"> {% include website-typographic-hierarchy.html %}
 
-					{% include print-advertising-typography.html %}
-
-					<hr class="mt-100">
-
-					{% include print-brochure-typography.html %}
-
-					<hr class="mt-100">
-
-					{% include print-postcard-typography.html %}
-
-					<hr class="mt-100">
-
-					{% include print-pull-out-quotes.html %}
-
-					<!-- DIGITAL -->
-					<hr class="mt-100">
-
-					{% include digital-introduction.html %}
-
-					<hr class="mt-100">
-
-					{% include digital-colour-palette.html %}
-
-					<hr class="mt-100">
-
-					{% include digital-logo-minimum-sizes.html %}
-
-					<hr class="mt-100">
-
-					{% include digital-logo-clear-space.html %}
-
-					<hr class="mt-100">
-
-					{% include digital-prohibited-actions.html %}
-
-					<!-- WEBSITE -->
-					<hr class="mt-100">
-
-					{% include website-introduction.html %}
-
-					<hr class="mt-100">
-
-					{% include website-content-structure.html %}
-
-					<hr class="mt-100">
-
-					{% include website-vertical-grid.html %}
-
-					<hr class="mt-100">
-
-					{% include website-content-blocks.html %}
-
-					<hr class="mt-100">
-
-					{% include website-spacing.html %}
-
-					<hr class="mt-100">
-
-					{% include website-colour-ratio.html %}
-
-					<hr class="mt-100">
-
-					{% include website-website-buttons.html %}
-
-					<hr class="mt-100">
-
-					{% include website-typographic-hierarchy.html %}
-
-					<hr class="mt-100">
-
-					{% include website-website-typography.html %}
+                    <hr class="mt-100"> {% include website-website-typography.html %}
 
                 </div>
             </div>
         </div>
     </main>
 
-	<div id="footer" class="footer">
+    <div id="footer" class="footer">
 
-		{% include footer.html %}
+        {% include footer.html %}
 
-	</div>
+    </div>
 
-	{% include footer-js.html %}
+    {% include footer-js.html %}
 
 </body>
 
