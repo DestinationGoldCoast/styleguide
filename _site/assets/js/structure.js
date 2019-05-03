@@ -11,6 +11,4 @@ jQuery.noConflict();
 
         return false;
     });
-
-
 })(jQuery);
